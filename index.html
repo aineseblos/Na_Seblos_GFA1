@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <header> 
+        <img id="logo" src="./images/logo.jpg">
+        <h1 id="text">Water For Wave</h1>
+    </header>
+    <div id="container">
+        <h1 id="head">Wave For Water</h1>
+        <p id="desc">The Waves for Water Organization Philippines is a non-profit institution wherein, 
+            the members establish systems that could collect and store rainwater in places 
+            where groundwater is absent. This organization contributes to providing free clean 
+            water for all residents. Summer is here and heatwaves are getting stronger causing 
+            the weather in the Philippines to be hotter which may cause dehydration and heat 
+            stroke to many citizens. Therefore, I chose to support and endorse this non-profit 
+            organization because I believe that access to clean water is very important to people   
+            especially this heated season.</p>
+    </div>
+    <form id="signup" action="index.html">
+        <h2>Sign-Up</h2>
+        <div id="form">
+            <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <br><br>
+            <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <br><br>
+            <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email" required>
+                <br><br>
+            <label for="num">Contact Number:</label>
+                <input type="text" id="num" name="num">
+                <br><br>
+            <label for="sex">Gender:
+                <select name="sex" id="sex" required>
+                    <option value=""></option>
+                    <option value="male" >Male</option>
+                    <option value="female">Female</option>
+                    <option value="none">Prefer not to say</option>
+                </select>
+            </label>
+                <br><br>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
